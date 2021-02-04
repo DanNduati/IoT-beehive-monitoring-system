@@ -1,0 +1,2 @@
+https://lora.readthedocs.io/en/latest/
+https://circuitdigest.com/microcontroller-projects/arduino-lora-sx1278-interfacing-tutorial
