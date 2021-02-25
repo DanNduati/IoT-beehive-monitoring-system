@@ -12,3 +12,11 @@
 -send data to main board via loRa
 
 ## Folder structure
+	.
+	├── api                 # Api tests files
+	├── docs                # Documentation files (alternatively `doc`)
+	├── images              # Image files
+	├── loratests           # arduino and esp32 loratests files     
+	├── actions.txt			# Work actions 
+	└── README.md
+
