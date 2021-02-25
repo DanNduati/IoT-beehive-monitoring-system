@@ -17,6 +17,7 @@
 	|	├── automate.py		# python script to post data to anabi dw server
 	|	├── hardwareTest	# Directory containing micropython code for the esp32
 	|	├── images
+	|	├── creds.txt		#text file containing A0uth credentials
 	├── docs                # Documentation files (alternatively `doc`)
 	├── images              # Image files
 	├── loratests           # arduino and esp32 loratests files     
