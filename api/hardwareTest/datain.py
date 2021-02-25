@@ -21,10 +21,10 @@ accessData ='{"client_id":"EptrWV0x17H0AlOoTvz06akdZ5imV4U5","client_secret":"M5
 response = requests.post(accessUrl,data=accessData,headers=accessHeaders)
 results = response.json()
 accessToken = results['access_token']
-
+print("The access token is: %s\n\n" %accessToken)
 #post data to DW
 publishHeaders = {"content-type":'application/json',"Authorization":' Bearer '+str(accessToken)+''}
-print(publishHeaders)
+print("The post data header is: %s \n\n" %publishHeaders)
 publishData = '[{"sourceId":"Temp","values":[{"ts":"2021-02-12T22:37:00Z","value":69}]}]'
 #publishData = {"sourceId":"Temp","values":69}
 #publishData = ujson.dumps(publishData)
