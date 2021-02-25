@@ -14,6 +14,9 @@
 ## Folder structure
 	.
 	├── api                 # Api tests files
+	|	├── automate.py		# python script to post data to anabi dw server
+	|	├── hardwareTest	# Directory containing micropython code for the esp32
+	|	├── images
 	├── docs                # Documentation files (alternatively `doc`)
 	├── images              # Image files
 	├── loratests           # arduino and esp32 loratests files     
