@@ -17,7 +17,7 @@ print("The acces token is: %s\n\n" %accessToken)
 ##post pseudo data to anabi
 postHeader={"content-type":'application/json',"Authorization":'Bearer '+str(accessToken)+''}
 print("The post header is: %s \n\n"%postHeader)
-postData = '[{"sourceId":"temp-Goi7MZiF0YCI4YAykw5gbd5Xky8s4JUj","values":[{"ts":"2021-02-12T22:37:00Z","value":69}]}]'
+postData = '[{"sourceId":"temp-Goi7MZiF0YCI4YAykw5gbd5Xky8s4JUj","values":[{"ts":"2021-02-25T08:40:00Z","value":69}]}]'
 publishResponse = requests.post(dataUrl,data=postData,headers=postHeader)
 #print status code
 print(publishResponse)
