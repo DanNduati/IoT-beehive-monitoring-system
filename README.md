@@ -16,6 +16,9 @@
 	├── api                 # Api tests files
 	|	├── automate.py		# python script to post data to anabi dw server
 	|	├── hardwareTest	# Directory containing micropython code for the esp32
+			├── c			# C/arduino version of the firmware
+			├── micropython	# micropython version of the firmware
+			├── pythonTsts	# Api python tests
 	|	├── images
 	|	├── creds.txt		#text file containing A0uth credentials
 	├── docs                # Documentation files (alternatively `doc`)
