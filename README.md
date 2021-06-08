@@ -3,7 +3,7 @@
 ### 1.Main controller -> ESP32
 
 <p align="center">
-	<img src="images/main.jpg"></img>
+	<img src="images/main.jpg" width="100%"></img>
 	<img src="images/mainRender.png"></img>
 </p>
 
@@ -16,7 +16,7 @@
 ### 2.Auxilliary board -> atmega328p 
 
 <p align="center">
-	<img src="images/aux.jpg" width="50%"></img>
+	<img src="images/aux.jpg" width="100%"></img>
 	<img src="images/auxRender.png"></img>
 </p>
 
@@ -34,15 +34,17 @@
 	├── images              # Image files
 	└── README.md
 
+## LoRa communication and sending data to the server
+<img src="images/term.jpeg" ></img>
 ## WebApi
 
 WebApi component provides an access to DW for external systems and components via REST
 API. 
 <p align="center">
-	<img src="images/web.png" height="500"></img>
-	<img  height="500" src="images/webauxhum.png"></img>
-	<img src="images/webauxtemp.png" height="500"></img>
-	<img  height="500" src="images/webmaintemp.png"></img>
-	<img  height="500" src="images/webreport.png"></img>
+	<img src="images/web.png" ></img>
+	<img src="images/webauxhum.png"></img>
+	<img src="images/webauxtemp.png" ></img>
+	<img src="images/webmaintemp.png"></img>
+	<img src="images/webreport.png"></img>
 </p>
 
