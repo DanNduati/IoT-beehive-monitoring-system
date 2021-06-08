@@ -16,7 +16,7 @@
 ### 2.Auxilliary board -> atmega328p 
 
 <p align="center">
-	<img src="images/aux.jpg" width="200"></img>
+	<img src="images/aux.jpg" width="50%"></img>
 	<img src="images/auxRender.png"></img>
 </p>
 
