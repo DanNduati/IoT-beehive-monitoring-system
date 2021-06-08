@@ -26,18 +26,12 @@
 
 ## Folder structure
 	.
-	├── api                 # Api tests files
-	|	├── automate.py		# python script to post data to anabi dw server
-	|	├── hardwareTest	# Directory containing micropython code for the esp32
+	├── firmware			# Firmware files
 			├── c			# C/arduino version of the firmware
 			├── micropython	# micropython version of the firmware
-			├── pythonTsts	# Api python tests
-	|	├── images			# Images
-	|	├── creds.txt		#text file containing A0uth credentials
-	├── docs                # Documentation files (alternatively `doc`)
+			├── libraries	# Libraries used in the firmware
+	├── pythonTests			# Api python tests
 	├── images              # Image files
-	├── loratests           # arduino and esp32 loratests files     
-	├── actions.txt			# Work actions 
 	└── README.md
 
 ## WebApi
