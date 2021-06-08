@@ -1,9 +1,0 @@
-HTTP Status Codes
-100 Continue. The client SHOULD continue with its request.
-200 OK. The request has succeeded.
-203 Non-Authoritative Information. 
-206 Partial Content.
-300 Multiple Choices. 
-303 See Other.
-306 (Unused)
-400 Bad Request
