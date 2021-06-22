@@ -1,3 +1,0 @@
-https://lora.readthedocs.io/en/latest/
-https://circuitdigest.com/microcontroller-projects/arduino-lora-sx1278-interfacing-tutorial
-https://www.mobilefish.com/developer/lorawan/lorawan_quickguide_tutorial.html
