@@ -2,7 +2,7 @@
 #include <LoRa.h>
 #include <dht.h>
 #include "HX711.h"
-#define dataPin 3 //data pin for the dht22 sensor
+#define dataPin 2 //data pin for the dht22 sensor
 
 //dht22
 dht DHT;

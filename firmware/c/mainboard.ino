@@ -50,7 +50,7 @@ String formattedDate;
 #define dio0 2
 byte msgCount = 0;            // count of incoming messages
 byte localAddress = 0x02;     // address of this device
-int loraTimeout = 5000; //Lora packet wait period
+int loraTimeout = 20000; //Lora packet wait period
 unsigned long timeNow = 0;
 bool loraReceived = false;
 String auxPayload = "";
